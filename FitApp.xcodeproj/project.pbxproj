@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EF1EA2BCB15FA00BA49A8 /* FitAppApp.swift */; };
-		8B5EF1ED2BCB15FA00BA49A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EF1EC2BCB15FA00BA49A8 /* ContentView.swift */; };
 		8B5EF1EF2BCB15FB00BA49A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5EF1EE2BCB15FB00BA49A8 /* Assets.xcassets */; };
 		8B5EF1F22BCB15FB00BA49A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5EF1F12BCB15FB00BA49A8 /* Preview Assets.xcassets */; };
+		8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3542BCB75A6009C6BA6 /* onBoardingView.swift */; };
+		8B76D3572BCB75DD009C6BA6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D3562BCB75DD009C6BA6 /* Launch Screen.storyboard */; };
+		8B76D35D2BCB7687009C6BA6 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D3582BCB7687009C6BA6 /* Poppins-Light.ttf */; };
+		8B76D35E2BCB7687009C6BA6 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D3592BCB7687009C6BA6 /* Poppins-Regular.ttf */; };
+		8B76D35F2BCB7687009C6BA6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D35A2BCB7687009C6BA6 /* Poppins-SemiBold.ttf */; };
+		8B76D3602BCB7687009C6BA6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D35B2BCB7687009C6BA6 /* Poppins-Bold.ttf */; };
+		8B76D3612BCB7687009C6BA6 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D35C2BCB7687009C6BA6 /* Poppins-Medium.ttf */; };
+		8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B5EF1E72BCB15FA00BA49A8 /* FitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5EF1EA2BCB15FA00BA49A8 /* FitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAppApp.swift; sourceTree = "<group>"; };
-		8B5EF1EC2BCB15FA00BA49A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B5EF1EE2BCB15FB00BA49A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5EF1F12BCB15FB00BA49A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B76D3542BCB75A6009C6BA6 /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
+		8B76D3562BCB75DD009C6BA6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8B76D3582BCB7687009C6BA6 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8B76D3592BCB7687009C6BA6 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		8B76D35A2BCB7687009C6BA6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B76D35B2BCB7687009C6BA6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		8B76D35C2BCB7687009C6BA6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		8B76D3622BCB769E009C6BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +66,17 @@
 		8B5EF1E92BCB15FA00BA49A8 /* FitApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B76D3622BCB769E009C6BA6 /* Info.plist */,
+				8B76D3512BCB7580009C6BA6 /* Views */,
+				8B76D3502BCB757B009C6BA6 /* Model */,
+				8B76D34F2BCB7571009C6BA6 /* ViewModel */,
+				8B76D34E2BCB7568009C6BA6 /* UICommon */,
+				8B76D34D2BCB755F009C6BA6 /* Common */,
+				8B76D34C2BCB7558009C6BA6 /* Fonts */,
 				8B5EF1EA2BCB15FA00BA49A8 /* FitAppApp.swift */,
-				8B5EF1EC2BCB15FA00BA49A8 /* ContentView.swift */,
 				8B5EF1EE2BCB15FB00BA49A8 /* Assets.xcassets */,
 				8B5EF1F02BCB15FB00BA49A8 /* Preview Content */,
+				8B76D3562BCB75DD009C6BA6 /* Launch Screen.storyboard */,
 			);
 			path = FitApp;
 			sourceTree = "<group>";
@@ -65,6 +87,71 @@
 				8B5EF1F12BCB15FB00BA49A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B76D34C2BCB7558009C6BA6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B76D35B2BCB7687009C6BA6 /* Poppins-Bold.ttf */,
+				8B76D3582BCB7687009C6BA6 /* Poppins-Light.ttf */,
+				8B76D35C2BCB7687009C6BA6 /* Poppins-Medium.ttf */,
+				8B76D3592BCB7687009C6BA6 /* Poppins-Regular.ttf */,
+				8B76D35A2BCB7687009C6BA6 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B76D34D2BCB755F009C6BA6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8B76D34E2BCB7568009C6BA6 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		8B76D34F2BCB7571009C6BA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B76D3502BCB757B009C6BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B76D3512BCB7580009C6BA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B76D3532BCB7590009C6BA6 /* Login */,
+				8B76D3522BCB7589009C6BA6 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B76D3522BCB7589009C6BA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B76D3532BCB7590009C6BA6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8B76D3542BCB75A6009C6BA6 /* onBoardingView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B76D3572BCB75DD009C6BA6 /* Launch Screen.storyboard in Resources */,
 				8B5EF1F22BCB15FB00BA49A8 /* Preview Assets.xcassets in Resources */,
+				8B76D3602BCB7687009C6BA6 /* Poppins-Bold.ttf in Resources */,
 				8B5EF1EF2BCB15FB00BA49A8 /* Assets.xcassets in Resources */,
+				8B76D35F2BCB7687009C6BA6 /* Poppins-SemiBold.ttf in Resources */,
+				8B76D3612BCB7687009C6BA6 /* Poppins-Medium.ttf in Resources */,
+				8B76D35D2BCB7687009C6BA6 /* Poppins-Light.ttf in Resources */,
+				8B76D35E2BCB7687009C6BA6 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5EF1ED2BCB15FA00BA49A8 /* ContentView.swift in Sources */,
+				8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
+				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +369,13 @@
 				DEVELOPMENT_TEAM = TX65264J97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +400,13 @@
 				DEVELOPMENT_TEAM = TX65264J97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
