@@ -29,12 +29,39 @@ struct onBoardingView: View {
     
     var body: some View {
         ZStack(alignment: .center){
-            TabView(selection: $selectPage.animation() {
+            TabView(selection: $selectPage.animation()) {
                 ForEach(0..<pageArr.count, id: \.self){
                     index in
                     var iObj = pageArr[index]
+                    VStack{
+                        Spacer()
+                        Text(iObj["title"] ?? "")
+                            .multilineTextAlignment(.center)
+                            .font(.customFont(.bold, fontSize: 24))
+                        Text(iObj["subtitle"] ?? "")
+                            .multilineTextAlignment(.center)
+                            .font(.customFont(.regular, fontSize: 14))
+                        HStack{
+                            Image(iObj["image"] ?? "")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: .widthPer(per: 0.80))
+                        }
+                        .frame(width: .screenWidth, height: .screenWidth, alignment: .center)
+                        Spacer()
+                    }
                 }
-            })
+            }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+            .overlay(HStack(spacing: 8) {
+                ForEach(0..<pageArr.count, id:\.self){
+                    index in
+                    Capsule()
+                        .fill(selectPage == index ? Color.primaryApp : Color.inActive)
+                        .frame(width: 8,height: 8)
+                }
+                
+            }.padding(.bottom, .heightPer(per: 0.2)),alignment: .bottom)
             VStack{
                 HStack{
                     Spacer()
