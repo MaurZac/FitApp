@@ -18,6 +18,9 @@
 		8B76D3602BCB7687009C6BA6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D35B2BCB7687009C6BA6 /* Poppins-Bold.ttf */; };
 		8B76D3612BCB7687009C6BA6 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B76D35C2BCB7687009C6BA6 /* Poppins-Medium.ttf */; };
 		8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */; };
+		8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3652BCB951D009C6BA6 /* SignUpView.swift */; };
+		8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */; };
+		8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		8B76D35C2BCB7687009C6BA6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		8B76D3622BCB769E009C6BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		8B76D3652BCB951D009C6BA6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberView.swift; sourceTree = "<group>"; };
+		8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				8B76D3542BCB75A6009C6BA6 /* onBoardingView.swift */,
+				8B76D3652BCB951D009C6BA6 /* SignUpView.swift */,
+				8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */,
+				8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -230,6 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */,
+				8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */,
+				8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */,
 				8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
 				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,

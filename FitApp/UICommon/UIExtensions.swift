@@ -40,28 +40,30 @@ extension CGFloat {
     }
     
     static var topInsets: Double {
-        if let keyWindow = UIApplication.shared.keyWindow {
-            return keyWindow.safeAreaInsets.top
-        }
-        return 0.0
+        guard let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first(where: { $0.isKeyWindow }) else {
+              return 0.0
+          }
+          return Double(keyWindow.safeAreaInsets.top)
     }
     
     static var bottomInsets: Double {
-        if let keyWindow = UIApplication.shared.keyWindow {
-            return keyWindow.safeAreaInsets.bottom
-        }
-        return 0.0
+        guard let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first(where: { $0.isKeyWindow }) else {
+              return 0.0
+          }
+        return Double(keyWindow.safeAreaInsets.bottom)
     }
     
     static var horizontalInsets: Double {
-        if let keyWindow = UIApplication.shared.keyWindow {
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let keyWindow = windowScene.windows.first(where: { $0.isKeyWindow }) {
             return keyWindow.safeAreaInsets.left + keyWindow.safeAreaInsets.right
         }
         return 0.0
     }
     
     static var verticalInsets: Double {
-        if let keyWindow = UIApplication.shared.keyWindow {
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let keyWindow = windowScene.windows.first(where: { $0.isKeyWindow }) {
             return keyWindow.safeAreaInsets.top + keyWindow.safeAreaInsets.bottom
         }
         return 0.0
@@ -140,6 +142,14 @@ extension View {
     
     func endEditing(){
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+    
+    func bgNavLink(content: some View, isAction: Binding<Bool>) -> some View {
+        return self.background(
+            NavigationLink(destination: content, isActive: isAction, label: {
+                EmptyView()
+            })
+        )
     }
     
     var navHide: some View {

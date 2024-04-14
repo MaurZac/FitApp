@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct onBoardingView: View {
+    @State var showSignUp = false
     @State private var selectPage = 0
     @State var pageArr = [
         [
@@ -32,7 +33,7 @@ struct onBoardingView: View {
             TabView(selection: $selectPage.animation()) {
                 ForEach(0..<pageArr.count, id: \.self){
                     index in
-                    var iObj = pageArr[index]
+                    let iObj = pageArr[index]
                     VStack{
                         Spacer()
                         Text(iObj["title"] ?? "")
@@ -80,7 +81,7 @@ struct onBoardingView: View {
                 }
                 Spacer()
                 Button(action: {
-                    
+                    showSignUp = true
                 }, label: {
                     Text("NEXT")
                         .font(.customFont(.semiBold, fontSize: 14))
@@ -96,10 +97,13 @@ struct onBoardingView: View {
             .horizontal15
             .bottomWithSafe
         }
+        .bgNavLink(content: SignUpView(), isAction: $showSignUp)
         .navHide
     }
 }
 
 #Preview {
-    onBoardingView()
+    NavigationView {
+        onBoardingView()
+    }
 }
