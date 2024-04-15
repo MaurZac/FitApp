@@ -21,6 +21,8 @@
 		8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3652BCB951D009C6BA6 /* SignUpView.swift */; };
 		8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */; };
 		8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */; };
+		8B76D36C2BCCF45C009C6BA6 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D36B2BCCF45C009C6BA6 /* NameView.swift */; };
+		8B76D36E2BCCF7D1009C6BA6 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D36D2BCCF7D1009C6BA6 /* GoalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		8B76D3652BCB951D009C6BA6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberView.swift; sourceTree = "<group>"; };
 		8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPMessageView.swift; sourceTree = "<group>"; };
+		8B76D36B2BCCF45C009C6BA6 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		8B76D36D2BCCF7D1009C6BA6 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				8B76D3652BCB951D009C6BA6 /* SignUpView.swift */,
 				8B76D3672BCB9BF1009C6BA6 /* MobileNumberView.swift */,
 				8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */,
+				8B76D36B2BCCF45C009C6BA6 /* NameView.swift */,
+				8B76D36D2BCCF7D1009C6BA6 /* GoalView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -241,10 +247,12 @@
 			files = (
 				8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */,
 				8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */,
+				8B76D36C2BCCF45C009C6BA6 /* NameView.swift in Sources */,
 				8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */,
 				8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
 				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,
+				8B76D36E2BCCF7D1009C6BA6 /* GoalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

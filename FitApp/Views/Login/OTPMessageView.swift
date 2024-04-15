@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct OTPMessageView: View {
-    @State var showOTP = false
+    
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    @State var showNameView = false
     @State var txtOTP = "1234"
     @State private var timeRamaining = 30
     
@@ -59,7 +61,7 @@ struct OTPMessageView: View {
                   
                     
                     Button{
-                        showOTP = true
+                        showNameView = true
                     } label: {
                         Text("VERIFY")
                             .font(.customFont(.semiBold, fontSize: 14))
@@ -74,7 +76,7 @@ struct OTPMessageView: View {
                     
                     HStack{
                         Button(action: {
-                            
+                            mode.wrappedValue.dismiss()
                         }, label: {
                             Text("Change Number")
                                 .font(.customFont(.regular, fontSize: 12))
@@ -103,7 +105,7 @@ struct OTPMessageView: View {
                 .bottomWithSafe
             }
         }
-        .bgNavLink(content: OTPMessageView(), isAction: $showOTP)
+        .bgNavLink(content: NameView(), isAction: $showNameView)
         .navHide
     }
 }
