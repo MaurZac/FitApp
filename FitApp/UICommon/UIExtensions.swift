@@ -76,6 +76,10 @@ extension Color {
         return Color(hex: "F1C40E")
     }
     
+    static var secondaryApp: Color {
+        return Color(hex: "102B46")
+    }
+    
     static var primaryText: Color {
         return Color(hex: "0c0B0B")
     }
