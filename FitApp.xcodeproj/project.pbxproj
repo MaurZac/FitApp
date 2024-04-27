@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B443DE12BCF06E3005B5BAF /* TopTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443DE02BCF06E3005B5BAF /* TopTapView.swift */; };
+		8B443DE32BCF06EE005B5BAF /* HealthTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443DE22BCF06EE005B5BAF /* HealthTipView.swift */; };
+		8B54266D2BDCA13200B8DB25 /* ExercisesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54266C2BDCA13200B8DB25 /* ExercisesTabView.swift */; };
+		8B5426702BDCA48000B8DB25 /* ExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54266F2BDCA48000B8DB25 /* ExercisesListView.swift */; };
+		8B5426722BDCA4A200B8DB25 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5426712BDCA4A200B8DB25 /* ExerciseDetailView.swift */; };
 		8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EF1EA2BCB15FA00BA49A8 /* FitAppApp.swift */; };
 		8B5EF1EF2BCB15FB00BA49A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5EF1EE2BCB15FB00BA49A8 /* Assets.xcassets */; };
 		8B5EF1F22BCB15FB00BA49A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5EF1F12BCB15FB00BA49A8 /* Preview Assets.xcassets */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B443DE02BCF06E3005B5BAF /* TopTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTapView.swift; sourceTree = "<group>"; };
+		8B443DE22BCF06EE005B5BAF /* HealthTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipView.swift; sourceTree = "<group>"; };
+		8B54266C2BDCA13200B8DB25 /* ExercisesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabView.swift; sourceTree = "<group>"; };
+		8B54266F2BDCA48000B8DB25 /* ExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListView.swift; sourceTree = "<group>"; };
+		8B5426712BDCA4A200B8DB25 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 		8B5EF1E72BCB15FA00BA49A8 /* FitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5EF1EA2BCB15FA00BA49A8 /* FitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAppApp.swift; sourceTree = "<group>"; };
 		8B5EF1EE2BCB15FB00BA49A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +77,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B443DDF2BCF06BE005B5BAF /* TopTabView */ = {
+			isa = PBXGroup;
+			children = (
+				8B54266E2BDCA44500B8DB25 /* WorkoutPlans */,
+				8B54266B2BDCA11C00B8DB25 /* Exercises */,
+				8B443DE42BCF06FB005B5BAF /* HealthTip */,
+				8B443DE02BCF06E3005B5BAF /* TopTapView.swift */,
+			);
+			path = TopTabView;
+			sourceTree = "<group>";
+		};
+		8B443DE42BCF06FB005B5BAF /* HealthTip */ = {
+			isa = PBXGroup;
+			children = (
+				8B443DE22BCF06EE005B5BAF /* HealthTipView.swift */,
+			);
+			name = HealthTip;
+			sourceTree = "<group>";
+		};
+		8B54266B2BDCA11C00B8DB25 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				8B54266C2BDCA13200B8DB25 /* ExercisesTabView.swift */,
+				8B54266F2BDCA48000B8DB25 /* ExercisesListView.swift */,
+				8B5426712BDCA4A200B8DB25 /* ExerciseDetailView.swift */,
+			);
+			name = Exercises;
+			sourceTree = "<group>";
+		};
+		8B54266E2BDCA44500B8DB25 /* WorkoutPlans */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WorkoutPlans;
+			sourceTree = "<group>";
+		};
 		8B5EF1DE2BCB15FA00BA49A8 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +208,7 @@
 		8B76D3522BCB7589009C6BA6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8B443DDF2BCF06BE005B5BAF /* TopTabView */,
 				8B76D3772BCE0DF3009C6BA6 /* Notification */,
 				8B76D3762BCE0DEC009C6BA6 /* Reminder */,
 				8B76D36F2BCDB107009C6BA6 /* Setting */,
@@ -285,13 +332,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */,
+				8B5426722BDCA4A200B8DB25 /* ExerciseDetailView.swift in Sources */,
 				8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */,
 				8B76D3792BCE0E03009C6BA6 /* ReminderView.swift in Sources */,
 				8B76D36C2BCCF45C009C6BA6 /* NameView.swift in Sources */,
+				8B5426702BDCA48000B8DB25 /* ExercisesListView.swift in Sources */,
+				8B54266D2BDCA13200B8DB25 /* ExercisesTabView.swift in Sources */,
 				8B76D3712BCDB121009C6BA6 /* SettingsView.swift in Sources */,
 				8B76D3732BCDB12D009C6BA6 /* SettingRowView.swift in Sources */,
+				8B443DE32BCF06EE005B5BAF /* HealthTipView.swift in Sources */,
 				8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */,
 				8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */,
+				8B443DE12BCF06E3005B5BAF /* TopTapView.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
 				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,
 				8B76D37B2BCE0E0F009C6BA6 /* NotificationsView.swift in Sources */,

@@ -15,6 +15,8 @@ struct GoalView: View {
         ["name":"Muscle Gain"],
         ["name":"Other"]
     ]
+    
+    @State var showHome = false
     @State var selectIndex = 0
     
     var body: some View {
@@ -47,6 +49,7 @@ struct GoalView: View {
                     }
                     
                     Button{
+                        showHome = true
                     } label: {
                         Text("Done")
                             .font(.customFont(.semiBold, fontSize: 14))
@@ -64,7 +67,7 @@ struct GoalView: View {
                 .bottomWithSafe
             }
         }
-        //.bgNavLink(content: OTPMessageView(), isAction: )
+        .bgNavLink(content: TopTapView(), isAction: $showHome)
         .navHide
     }
 }
