@@ -33,6 +33,12 @@
 		8B76D3752BCDB139009C6BA6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3742BCDB139009C6BA6 /* ProfileView.swift */; };
 		8B76D3792BCE0E03009C6BA6 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D3782BCE0E03009C6BA6 /* ReminderView.swift */; };
 		8B76D37B2BCE0E0F009C6BA6 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76D37A2BCE0E0F009C6BA6 /* NotificationsView.swift */; };
+		8BD35AC22BEF31AC0094661A /* RoundDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD35AC12BEF31AC0094661A /* RoundDropDown.swift */; };
+		8BEACA382BE3067C00DCBBCC /* WorkoutPlanTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA372BE3067C00DCBBCC /* WorkoutPlanTabView.swift */; };
+		8BEACA3A2BE3068900DCBBCC /* FindWorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA392BE3068900DCBBCC /* FindWorkoutPlanView.swift */; };
+		8BEACA3C2BE3069A00DCBBCC /* CreatePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3B2BE3069A00DCBBCC /* CreatePlanView.swift */; };
+		8BEACA3E2BE3079500DCBBCC /* IconTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */; };
+		8BEACA402BE30A9A00DCBBCC /* SectionMoreButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3F2BE30A9A00DCBBCC /* SectionMoreButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,12 @@
 		8B76D3742BCDB139009C6BA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8B76D3782BCE0E03009C6BA6 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		8B76D37A2BCE0E0F009C6BA6 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		8BD35AC12BEF31AC0094661A /* RoundDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDropDown.swift; sourceTree = "<group>"; };
+		8BEACA372BE3067C00DCBBCC /* WorkoutPlanTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanTabView.swift; sourceTree = "<group>"; };
+		8BEACA392BE3068900DCBBCC /* FindWorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWorkoutPlanView.swift; sourceTree = "<group>"; };
+		8BEACA3B2BE3069A00DCBBCC /* CreatePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanView.swift; sourceTree = "<group>"; };
+		8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitleButton.swift; sourceTree = "<group>"; };
+		8BEACA3F2BE30A9A00DCBBCC /* SectionMoreButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionMoreButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,9 @@
 		8B54266E2BDCA44500B8DB25 /* WorkoutPlans */ = {
 			isa = PBXGroup;
 			children = (
+				8BEACA3B2BE3069A00DCBBCC /* CreatePlanView.swift */,
+				8BEACA392BE3068900DCBBCC /* FindWorkoutPlanView.swift */,
+				8BEACA372BE3067C00DCBBCC /* WorkoutPlanTabView.swift */,
 			);
 			name = WorkoutPlans;
 			sourceTree = "<group>";
@@ -177,7 +192,10 @@
 		8B76D34E2BCB7568009C6BA6 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				8BEACA3F2BE30A9A00DCBBCC /* SectionMoreButtonsView.swift */,
 				8B76D3632BCB7703009C6BA6 /* UIExtensions.swift */,
+				8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */,
+				8BD35AC12BEF31AC0094661A /* RoundDropDown.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -336,6 +354,7 @@
 				8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */,
 				8B76D3792BCE0E03009C6BA6 /* ReminderView.swift in Sources */,
 				8B76D36C2BCCF45C009C6BA6 /* NameView.swift in Sources */,
+				8BEACA3C2BE3069A00DCBBCC /* CreatePlanView.swift in Sources */,
 				8B5426702BDCA48000B8DB25 /* ExercisesListView.swift in Sources */,
 				8B54266D2BDCA13200B8DB25 /* ExercisesTabView.swift in Sources */,
 				8B76D3712BCDB121009C6BA6 /* SettingsView.swift in Sources */,
@@ -343,10 +362,15 @@
 				8B443DE32BCF06EE005B5BAF /* HealthTipView.swift in Sources */,
 				8B76D3662BCB951D009C6BA6 /* SignUpView.swift in Sources */,
 				8B76D3642BCB7703009C6BA6 /* UIExtensions.swift in Sources */,
+				8BEACA402BE30A9A00DCBBCC /* SectionMoreButtonsView.swift in Sources */,
+				8BEACA382BE3067C00DCBBCC /* WorkoutPlanTabView.swift in Sources */,
 				8B443DE12BCF06E3005B5BAF /* TopTapView.swift in Sources */,
+				8BEACA3A2BE3068900DCBBCC /* FindWorkoutPlanView.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
 				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,
+				8BD35AC22BEF31AC0094661A /* RoundDropDown.swift in Sources */,
 				8B76D37B2BCE0E0F009C6BA6 /* NotificationsView.swift in Sources */,
+				8BEACA3E2BE3079500DCBBCC /* IconTitleSubtitleButton.swift in Sources */,
 				8B76D3752BCDB139009C6BA6 /* ProfileView.swift in Sources */,
 				8B76D36E2BCCF7D1009C6BA6 /* GoalView.swift in Sources */,
 			);

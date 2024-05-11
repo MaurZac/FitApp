@@ -66,7 +66,7 @@ struct TopTapView: View {
                         content:  {
                     HealthTipView().tag(0)
                     ExercisesTabView().tag(1)
-                    Text("Tab Content 3").tag(2)
+                    WorkoutPlanTabView().tag(2)
                     Text("Tab Content 4").tag(3)
                     Text("Tab Content 5").tag(4)
                     Text("Tab Content 6").tag(5)

@@ -108,6 +108,10 @@ extension Color {
         return Color(hex: "FCFBFB")
     }
     
+    static var btnBg: Color {
+        return Color(hex: "F0F0F3")
+    }
+    
     static var board: Color {
         return Color(hex: "D4D4D4")
     }
