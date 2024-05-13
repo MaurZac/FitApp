@@ -13,6 +13,8 @@ struct WorkoutPlanTabView: View {
     
     @State var showFind = false
     @State var showCreate = false
+    @State var showDetail = false
+    
     var body: some View {
         ZStack{
             ScrollView{
@@ -41,7 +43,7 @@ struct WorkoutPlanTabView: View {
                     
                     VStack(spacing: 8){
                         SectionMoreButtonsView(title: "Muscle Building") {
-                            
+                            showDetail = true
                         }
                         
                         ScrollView{
@@ -65,7 +67,7 @@ struct WorkoutPlanTabView: View {
                         }
                         
                         SectionMoreButtonsView(title: "Gain Strength") {
-                            
+                            showDetail = true
                         }
                                     
                         ScrollView{
@@ -96,6 +98,7 @@ struct WorkoutPlanTabView: View {
         }
         .bgNavLink(content: FindWorkoutPlanView(), isAction: $showFind)
         .bgNavLink(content: CreatePlanView(), isAction: $showCreate)
+        .bgNavLink(content: WorkoutDetailView(), isAction: $showDetail)
     }
 }
 
