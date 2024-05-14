@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1162122BF29CFC002EBDA8 /* TrainerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162112BF29CFC002EBDA8 /* TrainerTabView.swift */; };
+		8B1162142BF29E72002EBDA8 /* TrainerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162132BF29E72002EBDA8 /* TrainerProfileView.swift */; };
+		8B1162162BF2DC61002EBDA8 /* DiatecianTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162152BF2DC61002EBDA8 /* DiatecianTabView.swift */; };
+		8B1162182BF30C5E002EBDA8 /* BackgroundCleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162172BF30C5E002EBDA8 /* BackgroundCleanerView.swift */; };
+		8B11621C2BF30D02002EBDA8 /* SelectAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11621B2BF30D02002EBDA8 /* SelectAgeView.swift */; };
+		8B11621E2BF30D12002EBDA8 /* SelectHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11621D2BF30D12002EBDA8 /* SelectHeightView.swift */; };
+		8B1162202BF30D22002EBDA8 /* SelectWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11621F2BF30D22002EBDA8 /* SelectWeightView.swift */; };
+		8B1162222BF30D2B002EBDA8 /* SelectLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162212BF30D2B002EBDA8 /* SelectLevelView.swift */; };
+		8B1162242BF31A6E002EBDA8 /* EnterYourPhysiquesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1162232BF31A6E002EBDA8 /* EnterYourPhysiquesView.swift */; };
 		8B443DE12BCF06E3005B5BAF /* TopTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443DE02BCF06E3005B5BAF /* TopTapView.swift */; };
 		8B443DE32BCF06EE005B5BAF /* HealthTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443DE22BCF06EE005B5BAF /* HealthTipView.swift */; };
 		8B54266D2BDCA13200B8DB25 /* ExercisesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54266C2BDCA13200B8DB25 /* ExercisesTabView.swift */; };
@@ -44,9 +53,19 @@
 		8BEACA3C2BE3069A00DCBBCC /* CreatePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3B2BE3069A00DCBBCC /* CreatePlanView.swift */; };
 		8BEACA3E2BE3079500DCBBCC /* IconTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */; };
 		8BEACA402BE30A9A00DCBBCC /* SectionMoreButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEACA3F2BE30A9A00DCBBCC /* SectionMoreButtonsView.swift */; };
+		8BEB1F0D2BF3346D0040884E /* ChallenguesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB1F0C2BF3346D0040884E /* ChallenguesTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1162112BF29CFC002EBDA8 /* TrainerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerTabView.swift; sourceTree = "<group>"; };
+		8B1162132BF29E72002EBDA8 /* TrainerProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerProfileView.swift; sourceTree = "<group>"; };
+		8B1162152BF2DC61002EBDA8 /* DiatecianTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiatecianTabView.swift; sourceTree = "<group>"; };
+		8B1162172BF30C5E002EBDA8 /* BackgroundCleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCleanerView.swift; sourceTree = "<group>"; };
+		8B11621B2BF30D02002EBDA8 /* SelectAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAgeView.swift; sourceTree = "<group>"; };
+		8B11621D2BF30D12002EBDA8 /* SelectHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHeightView.swift; sourceTree = "<group>"; };
+		8B11621F2BF30D22002EBDA8 /* SelectWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWeightView.swift; sourceTree = "<group>"; };
+		8B1162212BF30D2B002EBDA8 /* SelectLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelView.swift; sourceTree = "<group>"; };
+		8B1162232BF31A6E002EBDA8 /* EnterYourPhysiquesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourPhysiquesView.swift; sourceTree = "<group>"; };
 		8B443DE02BCF06E3005B5BAF /* TopTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTapView.swift; sourceTree = "<group>"; };
 		8B443DE22BCF06EE005B5BAF /* HealthTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipView.swift; sourceTree = "<group>"; };
 		8B54266C2BDCA13200B8DB25 /* ExercisesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabView.swift; sourceTree = "<group>"; };
@@ -86,6 +105,7 @@
 		8BEACA3B2BE3069A00DCBBCC /* CreatePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanView.swift; sourceTree = "<group>"; };
 		8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitleButton.swift; sourceTree = "<group>"; };
 		8BEACA3F2BE30A9A00DCBBCC /* SectionMoreButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionMoreButtonsView.swift; sourceTree = "<group>"; };
+		8BEB1F0C2BF3346D0040884E /* ChallenguesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallenguesTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B11620F2BF29CD3002EBDA8 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				8B1162112BF29CFC002EBDA8 /* TrainerTabView.swift */,
+				8B1162132BF29E72002EBDA8 /* TrainerProfileView.swift */,
+			);
+			name = Trainer;
+			sourceTree = "<group>";
+		};
+		8B1162102BF29CDD002EBDA8 /* Diatecian */ = {
+			isa = PBXGroup;
+			children = (
+				8B1162152BF2DC61002EBDA8 /* DiatecianTabView.swift */,
+			);
+			name = Diatecian;
+			sourceTree = "<group>";
+		};
 		8B443DDF2BCF06BE005B5BAF /* TopTabView */ = {
 			isa = PBXGroup;
 			children = (
+				8BEB1F0B2BF334570040884E /* Challengues */,
+				8B1162102BF29CDD002EBDA8 /* Diatecian */,
+				8B11620F2BF29CD3002EBDA8 /* Trainer */,
 				8B54266E2BDCA44500B8DB25 /* WorkoutPlans */,
 				8B54266B2BDCA11C00B8DB25 /* Exercises */,
 				8B443DE42BCF06FB005B5BAF /* HealthTip */,
@@ -211,6 +251,7 @@
 				8BEACA3D2BE3079500DCBBCC /* IconTitleSubtitleButton.swift */,
 				8BD35AC12BEF31AC0094661A /* RoundDropDown.swift */,
 				8BD35ACB2BF080830094661A /* DefaultHeader.swift */,
+				8B1162172BF30C5E002EBDA8 /* BackgroundCleanerView.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -258,6 +299,11 @@
 				8B76D3692BCB9E5E009C6BA6 /* OTPMessageView.swift */,
 				8B76D36B2BCCF45C009C6BA6 /* NameView.swift */,
 				8B76D36D2BCCF7D1009C6BA6 /* GoalView.swift */,
+				8B11621B2BF30D02002EBDA8 /* SelectAgeView.swift */,
+				8B11621D2BF30D12002EBDA8 /* SelectHeightView.swift */,
+				8B11621F2BF30D22002EBDA8 /* SelectWeightView.swift */,
+				8B1162212BF30D2B002EBDA8 /* SelectLevelView.swift */,
+				8B1162232BF31A6E002EBDA8 /* EnterYourPhysiquesView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -286,6 +332,14 @@
 				8B76D37A2BCE0E0F009C6BA6 /* NotificationsView.swift */,
 			);
 			path = Notification;
+			sourceTree = "<group>";
+		};
+		8BEB1F0B2BF334570040884E /* Challengues */ = {
+			isa = PBXGroup;
+			children = (
+				8BEB1F0C2BF3346D0040884E /* ChallenguesTabView.swift */,
+			);
+			name = Challengues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,15 +419,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B76D36A2BCB9E5E009C6BA6 /* OTPMessageView.swift in Sources */,
+				8B11621E2BF30D12002EBDA8 /* SelectHeightView.swift in Sources */,
 				8B5426722BDCA4A200B8DB25 /* ExerciseDetailView.swift in Sources */,
+				8B1162142BF29E72002EBDA8 /* TrainerProfileView.swift in Sources */,
+				8BEB1F0D2BF3346D0040884E /* ChallenguesTabView.swift in Sources */,
 				8B76D3682BCB9BF1009C6BA6 /* MobileNumberView.swift in Sources */,
 				8B76D3792BCE0E03009C6BA6 /* ReminderView.swift in Sources */,
+				8B1162162BF2DC61002EBDA8 /* DiatecianTabView.swift in Sources */,
 				8B76D36C2BCCF45C009C6BA6 /* NameView.swift in Sources */,
+				8B1162242BF31A6E002EBDA8 /* EnterYourPhysiquesView.swift in Sources */,
 				8BEACA3C2BE3069A00DCBBCC /* CreatePlanView.swift in Sources */,
 				8B5426702BDCA48000B8DB25 /* ExercisesListView.swift in Sources */,
 				8B54266D2BDCA13200B8DB25 /* ExercisesTabView.swift in Sources */,
+				8B11621C2BF30D02002EBDA8 /* SelectAgeView.swift in Sources */,
+				8B1162122BF29CFC002EBDA8 /* TrainerTabView.swift in Sources */,
 				8B76D3712BCDB121009C6BA6 /* SettingsView.swift in Sources */,
 				8B76D3732BCDB12D009C6BA6 /* SettingRowView.swift in Sources */,
+				8B1162222BF30D2B002EBDA8 /* SelectLevelView.swift in Sources */,
 				8BD35AC42BF07EDE0094661A /* WorkoutDetailView.swift in Sources */,
 				8B443DE32BCF06EE005B5BAF /* HealthTipView.swift in Sources */,
 				8BD35ACC2BF080830094661A /* DefaultHeader.swift in Sources */,
@@ -385,6 +447,7 @@
 				8BEACA3A2BE3068900DCBBCC /* FindWorkoutPlanView.swift in Sources */,
 				8B5EF1EB2BCB15FA00BA49A8 /* FitAppApp.swift in Sources */,
 				8BD35ACA2BF07F210094661A /* WorkoutDayExercisesView.swift in Sources */,
+				8B1162182BF30C5E002EBDA8 /* BackgroundCleanerView.swift in Sources */,
 				8BD35AC82BF07F110094661A /* WorkoutWeekDetailView.swift in Sources */,
 				8B76D3552BCB75A6009C6BA6 /* onBoardingView.swift in Sources */,
 				8BD35AC22BEF31AC0094661A /* RoundDropDown.swift in Sources */,
@@ -393,6 +456,7 @@
 				8BEACA3E2BE3079500DCBBCC /* IconTitleSubtitleButton.swift in Sources */,
 				8B76D3752BCDB139009C6BA6 /* ProfileView.swift in Sources */,
 				8B76D36E2BCCF7D1009C6BA6 /* GoalView.swift in Sources */,
+				8B1162202BF30D22002EBDA8 /* SelectWeightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

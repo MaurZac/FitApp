@@ -67,9 +67,9 @@ struct TopTapView: View {
                     HealthTipView().tag(0)
                     ExercisesTabView().tag(1)
                     WorkoutPlanTabView().tag(2)
-                    Text("Tab Content 4").tag(3)
-                    Text("Tab Content 5").tag(4)
-                    Text("Tab Content 6").tag(5)
+                    ChallenguesTabView().tag(3)
+                    TrainerTabView().tag(4)
+                    DiatecianTabView().tag(5)
                 })
                 .tabViewStyle(.page(indexDisplayMode: .never))
                 
